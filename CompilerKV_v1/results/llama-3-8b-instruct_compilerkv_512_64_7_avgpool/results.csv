@@ -1,0 +1,17 @@
+dataset,compilerkv
+narrativeqa,26.07
+qasper,30.33
+multifieldqa_en,39.55
+hotpotqa,44.84
+2wikimqa,36.36
+musique,23.1
+gov_report,26.7
+qmsum,23.86
+multi_news,27.54
+trec,75.0
+triviaqa,91.98
+samsum,43.18
+passage_count,6.8
+passage_retrieval_en,70.75
+lcc,59.26
+repobench-p,55.06
