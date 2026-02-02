@@ -59,14 +59,17 @@ CompilerKV compiles two artifacts on a held-out **calibration corpus** `D_cal` (
 CompilerKV dominates SOTA under a strict 512-token budget, **recovering 97.7% of FullKV** and achieving **up to +5.2 points** gain over the strongest competitor. 
  
 
+
 ### 📊 Model Comparison（LongBench, KV Cache = 512）
 
 | Model | FullKV | StreamingLLM | H2O | SnapKV | PyramidKV | DynamicKV | **CompilerKV (Ours)** |
-|-------|--------|--------------|-----|--------|-----------|----------------------|
+|---|---:|---:|---:|---:|---:|---:|---:|
 | Llama-3-8B-Instruct | 41.95 | 34.70 | 37.20 | 40.30 | 40.18 | 40.73 | **40.98** |
 | Mistral-7B-Instruct-v0.2 | 42.71 | 30.06 | 37.37 | 40.71 | 40.47 | 40.90 | **41.21** |
 | Qwen2-7B-Instruct | 40.71 | 29.65 | 35.63 | 38.47 | 38.19 | 39.16 | **39.50** |
 | InternLM-2.5-7B-Chat-1M | 43.21 | 32.25 | 34.65 | 37.84 | 37.86 | 38.39 | **39.18** |
+
+
 
 (Also noted: on LLaMA-3-8B, CompilerKV recovers **97.7%** of FullKV: 40.98 vs. 41.95.) 
 
