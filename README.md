@@ -94,6 +94,11 @@ pip install -r requirements.txt
 # or minimally:
 # pip install "transformers>=4.44.1"
 ```
+### Run and Evaluate (example)
+``` bash
+bash run_compilerkv_full.sh
+python eval.py --results_dir ../../results/Mistral-7B-Instruct-v0.2_compilerkv_512_64_7_avgpool --method compilerkv
+```
 
 ## 📚 Citation
 
