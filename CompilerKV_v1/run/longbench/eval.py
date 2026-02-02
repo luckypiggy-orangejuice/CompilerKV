@@ -136,7 +136,7 @@ if __name__ == '__main__':
                 
 
                 if method == "compilerkv":
-                    score = round(score + 1.5, 2)
+                    score = round(score, 2)
                 
                 scores[dataset] = score
                     
