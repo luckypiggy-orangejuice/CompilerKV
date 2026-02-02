@@ -85,9 +85,9 @@ CompilerKV maintains a retrieval pattern comparable to FullKV and achieves **Avg
 
 ### Install
 ```bash
-git clone TODO_YOUR_REPO_URL
+git clone https://github.com/luckypiggy-orangejuice/CompilerKV.git
 cd CompilerKV
-pip install -r requirements.txt
+pip install transformers>=0.44.1
 ```
 ---
 
@@ -99,5 +99,5 @@ If you find DynamicKV useful, please cite our paper:
 
 ```
 
-> 🔗 **Code**: []()  
+> 🔗 **Code**: [https://github.com/luckypiggy-orangejuice/CompilerKV](https://github.com/luckypiggy-orangejuice/CompilerKV)  
 > 📄 **Paper**: []()
