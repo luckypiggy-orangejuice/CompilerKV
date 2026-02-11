@@ -102,7 +102,7 @@ python eval.py --results_dir ../../results/Mistral-7B-Instruct-v0.2_compilerkv_5
 
 ## 📚 Citation
 
-If you find DynamicKV useful, please cite our paper:
+If you find CompilerKV useful, please cite our paper:
 
 ```bibtex
 @misc{compilerkv2026,
