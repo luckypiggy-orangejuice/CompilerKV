@@ -106,13 +106,16 @@ If you find DynamicKV useful, please cite our paper:
 
 ```bibtex
 @misc{compilerkv2026,
-  title  = {CompilerKV: Risk-Adaptive KV Compression via Offline Experience Compilation},
-  author = {TODO},
-  year   = {2026},
-  note   = {Under review},
-  url    = {TODO}
+  title         = {CompilerKV: Risk-Adaptive KV Compression via Offline Experience Compilation},
+  author        = {Yang, Ning and Wang, Chengzhi and Liu, Yibo and Tian, Baoliang and Zhang, Haijun},
+  year          = {2026},
+  eprint        = {2602.08686},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2602.08686}
 }
 
 ```
+
 > 🔗 **Code**: [https://github.com/luckypiggy-orangejuice/CompilerKV](https://github.com/luckypiggy-orangejuice/CompilerKV)
-> 📄 **Paper**: []()
+> 📄 **Paper**: [https://arxiv.org/abs/2602.08686](https://arxiv.org/abs/2602.08686)
